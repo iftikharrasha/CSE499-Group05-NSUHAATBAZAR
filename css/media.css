@@ -1,0 +1,83 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /*------ banner starts -----*/
+  .section-title {
+    margin: 35px 0;
+    margin-bottom: 0;
+  }
+
+  .section-title h1 {
+    font-size: 52px;
+  }
+
+  .ribbon {
+    margin: 10px auto;
+  }
+
+  .dots {
+    display: none;
+  }
+
+  .ribbon-content {
+    font-size: 20px !important;
+  }
+  /*------- banner ends ------*/
+
+  /*---- filtering starts ----*/
+  .filtering-cat form {
+    position: relative;
+    width: 95%;
+    float: right;
+  }
+  /*----- filtering ends ----*/
+
+  /*---- newsletter starts ---*/
+  .newsletter p {
+    font-size: 23px;
+  }
+
+  .newsletter form {
+    max-width: 100%;
+  }
+
+  .newsletter form .input {
+    width: 55%;
+  }
+
+  .newsletter form .newsletter-btn {
+    width: 35%;
+  }
+  /*----- newsletter ends ----*/
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .snip1585 {
+    left: 22%;
+  }
+
+  .card_in {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .snip1585 {
+    left: 14%;
+  }
+
+  .card_in {
+    width: 80%;
+    margin-left: 12%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
