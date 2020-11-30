@@ -26,15 +26,18 @@ body {
 .header-cover {
   height: 30px;
   background-color: #132c3e;
+	transition: all ease 0.5s;
 }
 
 .header {
   width: 100%;
   background-color: #fcab10;
+	transition: all ease 0.5s;
+	position: relative;
+	z-index: 9;
 }
 
 .bg-new {
-  background-color: #fcab10;
   padding: 10px;
 }
 
@@ -65,6 +68,10 @@ body {
 
 .menu ul li a:hover {
   color: black !important;
+}
+
+.mnew-auto li a:hover {
+  color: #fcab10 !important;
 }
 
 .navbar-toggler:focus {
@@ -478,6 +485,10 @@ body {
   text-decoration: none;
 }
 
+.handle:focus {
+  outline: none;
+}
+
 .slick-prev:before {
   content: "\f104";
   font-family: FontAwesome;
@@ -500,6 +511,30 @@ body {
   right: 5%;
 }
 
+.more-btn {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.more-btn button {
+  width: 180px;
+  height: 40px;
+  font-weight: 700;
+  background: #fcab10;
+  color: black;
+  border: none;
+  border-radius: 40px;
+  transition: all 0.4s;
+}
+
+.more-btn button:hover{
+  background: white;
+  padding: 0px 10px 0px 40px;
+}
+
+.more-btn button:focus{
+outline: none;
+}
 /*------- outlet ends ------*/
 
 /*---- inside-ad starts ----*/
@@ -636,6 +671,54 @@ body {
 }
 /*----- newsletter ends ----*/
 
+/*----- media partners -----*/
+.brands{
+  margin: 40px 0;
+}
+
+.brands-ul{
+   display: flex;
+}
+
+.brands-ul li{
+  margin-left: 25px;
+  width: 214px;
+  list-style: none;
+}
+/*----- media partners -----*/
+
+/*---- followers starts ----*/
+.follower-numb{
+  font-size:8.9em;
+  margin-top:30px;
+  margin-bottom:-110px;
+}
+
+.follower-numb h4{
+  font-size: 1em;
+  line-height: 1;
+  letter-spacing: -0.075em;
+  color: #fcab10;
+}
+
+.follower-text{
+  font-size:5.2em;
+  margin-top:0px;
+  margin-bottom:30px;
+}
+
+.follower-text h6 {
+  margin-top: 60px;
+  margin-left: 5px;
+  font-size: 1em;
+  line-height: 1.36;
+  letter-spacing: 0px;
+  color: white;
+  font-family: Sacramento;
+  font-weight: 400;
+}
+/*---- followers starts ----*/
+
 /*------ footer starts -----*/
 footer {
   background-color: #132c3e;
@@ -672,7 +755,6 @@ footer {
 }
 
 .copyright {
-  background-color: black;
   display: block;
   font-size: 14px;
   padding: 10px 0;
