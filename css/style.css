@@ -619,6 +619,8 @@ body {
 
 /*---- newsletter starts ---*/
 .sections-news {
+	width: 100%;
+	overflow: hidden;
 	background-color: #fcab10;
 	padding: 40px 0;
 }
@@ -1129,6 +1131,189 @@ woocommerce-product-gallery images {
 }
 /* review ends */
 
+/* related starts */
+ul.products li.product {
+	float: left;
+	margin: 0 2.8% 2.992em 0;
+	padding: 0;
+	position: relative;
+	width: 22.05%;
+	margin-left: 0;
+	list-style: none;
+}
+
+ul.products li.product a {
+	text-decoration: none;
+}
+
+ul.products li.product a img {
+	width: 100%;
+	height: 250px;
+	display: block;
+	margin: 0 0 1em;
+	box-shadow: none;
+}
+
+.rel-product-title {
+	font-size: 1em;
+	text-align: center;
+	color: #fff;
+}
+/* related ends */
+
+/* outlet starts */
+.outlet-bg {
+	width: 100%;
+	padding: 50px;
+	background-color: #252735;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+.outlet-bg h1 {
+	text-align: center;
+	padding-bottom: 40px;
+	color: #fcab10;
+}
+
+.woocommerce-result-count {
+	margin: 0 0 1em;
+	float: left;
+}
+
+.woocommerce-ordering {
+	margin: 0 0 1em;
+	float: right;
+}
+
+.widget {
+	width: 100%;
+	border-bottom: 2px solid #fcab10;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.widget-title {
+	display: inline-block;
+	position: relative;
+	padding: 10px 1em;
+	background: #2a4558;
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	margin: 0;
+	font-size: 20px;
+}
+
+ul.products li.pwid {
+	width: 30.05%;
+	background: #2a4558;
+	border-radius: 20px;
+}
+
+.pwid img {
+	height: 225px !important;
+	border-radius: 20px;
+}
+
+.product_list_widget {
+	margin-top: 20px;
+}
+
+.outlet-title {
+	font-size: 1em;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+.product-categories {
+	margin-top: 15px;
+}
+
+ul.product-categories li {
+	padding: 4px 0;
+	margin: 0;
+	list-style: none;
+	padding-bottom: 15px;
+}
+
+ul.product-categories li a {
+	color: white;
+	text-decoration: none;
+}
+
+ul.product-categories li span {
+	float: right;
+}
+
+ul.product_list_widget li {
+	padding: 4px 0;
+	margin: 0;
+	list-style: none;
+	padding-bottom: 15px;
+}
+
+ul.product_list_widget li img {
+	float: right;
+	margin-left: 4px;
+	width: 32px;
+	height: auto;
+	box-shadow: none;
+}
+
+ul.product_list_widget li a {
+	color: white;
+	text-decoration: none;
+}
+
+.filter {
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	list-style: none;
+}
+
+.filter li {
+	position: relative;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 4px 8px 4px 12px;
+	margin: 0 6px 4px 9px;
+	background-color: #fcfaf7;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.filter li:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -12px;
+	border-color: rgba(0, 0, 0, 0) #fcfaf7 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+	border-style: solid;
+	border-width: 13px 12px 14px 0;
+}
+
+.filter li:after {
+	content: "";
+	position: absolute;
+	top: 11px;
+	left: 0;
+	width: 4px;
+	height: 4px;
+	border-radius: 2px;
+	background: #959ca3;
+}
+
+.filter li a {
+	text-decoration: none;
+	color: #383a3c !important;
+}
+/* outlet ends */
+
 /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
 @media (max-width: 320px) {
 	.flex-active-slide {
@@ -1193,6 +1378,24 @@ woocommerce-product-gallery images {
 		margin: 0 0 2.992em;
 	}
 	/* related ends */
+
+	.outlet-bg {
+		text-align: center;
+	}
+
+	.woocommerce-result-count {
+		float: none;
+	}
+
+	.woocommerce-ordering {
+		float: none;
+	}
+
+	ul.products li.pwid {
+		width: 85.05%;
+		margin-left: 10%;
+		margin-top: 50px;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -1224,6 +1427,11 @@ woocommerce-product-gallery images {
 		margin: 0 0 2.992em;
 	}
 	/* related ends */
+
+	ul.products li.pwid {
+		width: 85.05%;
+		margin-left: 10%;
+	}
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -1254,6 +1462,10 @@ woocommerce-product-gallery images {
 		margin: 0 0 2.992em;
 	}
 	/* related ends */
+
+	ul.products li.pwid {
+		width: 47.05%;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */

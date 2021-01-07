@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hatbazar - NSU | Outlets</title>
+  <!------- font awesome ------>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!------- google fonts ------>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+  <!------- pluggin css ------->
+  <link rel="stylesheet" href="./assets/slick/slick.css" />
+  <link rel="stylesheet" href="./assets/slick/slick-theme.css" />
+  <link rel="stylesheet" href="./assets/wowjs/animate.css">
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/media.css" />
+</head>
+
+<body>
+    <!------- header starts ----->
+    <header class="header">
+      <div class="header-cover"></div>
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light bg-new">
+          <div class="logo wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
+            <a class="navbar-brand" href="index.html"></a>
+          </div>
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="outlets.html">Outlets</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="header-cover"></div>
+    </header>
+    <!------- header ends ----->
+
+    <!----- headline starts --->
+    <section class="outlet-header">
+        <div class="container">
+          <div class="row">
+            <div class="outlet-bg">
+              <h1>OUTLETS</h1>
+              <p class="woocommerce-result-count">Showing all 7 results</p>
+              <form class="woocommerce-ordering" method="get">
+                  <select name="orderby" class="orderby custom-select" aria-label="Shop order">
+                      <option value="menu_order" selected="selected">Default sorting</option>
+                      <option value="popularity">Sort by popularity</option>
+                      <option value="rating">Sort by average rating</option>
+                      <option value="date">Sort by latest</option>
+                  </select>
+                  <input type="hidden" name="paged" value="1">
+              </form>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!----- headline ends ----->
+
+    <!------- list starts ----->
+    <section class="outlet-list">
+         <div class="container box">
+            <div class="col-md-12">
+            <div class="row">
+              <div class="col-lg-3 col-sm-4 col-12">
+                  <div class="widget">
+                    <h3 class="widget-title">Categories</h3>
+                  </div>
+                  <ul class="product-categories">
+                      <li>
+                        <a href="#">Foods</a>
+                        <span class="count">34</span>
+                      </li>
+                      <li>
+                        <a href="#">Gadgets</a>
+                        <span class="count">31</span>
+                      </li>
+                      <li>
+                        <a href="#">Cosmetics</a>
+                        <span class="count">12</span>
+                      </li>
+                      <li>
+                        <a href="#">Clothings</a>
+                        <span class="count">12</span>
+                      </li>
+                      <li>
+                        <a href="#">Gifts</a>
+                        <span class="count">12</span>
+                      </li>
+                  </ul>
+                  
+                  <div class="widget">
+                    <h3 class="widget-title">Top Rated</h3>
+                  </div>
+                  <ul class="product_list_widget">
+                      <li>
+                        <a href="single-outlet.html">
+                          <img src="img/nine.jpg" alt="nine">
+                          <span>Nine</span>
+                        </a>
+                      </li>
+                       <li>
+                          <a href="single-outlet.html">
+                            <img src="img/glitcher.jpg" alt="glitcher">
+                            <span>Sugar Shots</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="single-outlet.html">
+                            <img src="img/mysticmorsel.jpg" alt="mysticmorsel">
+                            <span>Mystic Morsel</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="single-outlet.html">
+                            <img src="img/cookfinity.jpg" alt="cookfinity">
+                            <span>Cook Finity</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="single-outlet.html">
+                            <img src="img/justdips.png" alt="justdips">
+                            <span>Just Dips</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="single-outlet.html">
+                            <img src="img/cakemate.jpg" alt="cake mate">
+                            <span>Cake Mate</span>
+                          </a>
+                      </li>
+                  </ul>
+                  
+                  
+                  <div class="widget">
+                    <h3 class="widget-title">All Tags</h3>
+                  </div>
+                  <ul class="filter">
+                      <li>
+                        <a href="#">design</a>
+                      </li>
+                      <li>
+                        <a href="#">logo</a>
+                      </li>
+                      <li>
+                        <a href="#">photography</a>
+                      </li>
+                      <li>
+                        <a href="#">poster</a>
+                      </li>
+                      <li>
+                        <a href="#">resources</a>
+                      </li>
+                      <li>
+                        <a href="#">retro</a>
+                      </li>
+                      <li>
+                        <a href="#">t-shirts</a>
+                      </li>
+                      <li>
+                        <a href="#">videos</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="col-lg-9 col-sm-8 col-12">
+                <ul class="products">
+                  <li class="product pwid">
+                      <a href="single-outlet.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                        <img width="300" height="300" src="img/beautysupplybd.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="cake mate">
+                        <h2 class="outlet-title">Cake Mate</h2>
+                      </a>
+                  </li>
+                  <li class="product pwid">
+                    <a href="single-outlet.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                      <img width="300" height="300" src="img/bees.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="cake mate">
+                      <h2 class="outlet-title">Bees</h2>
+                    </a>
+                  </li>
+                  <li class="product pwid">
+                    <a href="single-outlet.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                      <img width="300" height="300" src="img/borno.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="cake mate">
+                      <h2 class="outlet-title">Borno</h2>
+                    </a>
+                  </li>
+                  <li class="product pwid">
+                    <a href="single-outlet.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                      <img width="300" height="300" src="img/cookfinity.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="cake mate">
+                      <h2 class="outlet-title">Cookfinity</h2>
+                    </a>
+                  </li>
+                  <li class="product pwid">
+                    <a href="single-outlet.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                      <img width="300" height="300" src="img/glitcher.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="cake mate">
+                      <h2 class="outlet-title">Glitcher</h2>
+                    </a>
+                  </li>
+                  <li class="product pwid">
+                    <a href="single-outlet.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                      <img width="300" height="300" src="img/greenmart.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="cake mate">
+                      <h2 class="outlet-title">Green Mart</h2>
+                    </a>
+                  </li>
+                  <li class="product pwid">
+                    <a href="single-outlet.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                      <img width="300" height="300" src="img/iconicbeautymart.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="cake mate">
+                      <h2 class="outlet-title">Iconic Beauty</h2>
+                    </a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+    <!------ list ends -------->
+
+    <!--- newsletter starts -->
+    <section class="sections-news">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="newsletter">
+              <p>
+                SIGN UP FOR OUR
+                <strong>NEWSLETTER</strong>
+              </p>
+              <form action="#" method="post">
+                <p class="message"></p>
+                <input class="input" type="email" id="email" name="email" placeholder="Enter Your Email" />
+                <button class="newsletter-btn" value="Sign Up" name="mail-submit" type="submit">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---- newsletter ends --->
+
+    <!----- footer starts ---->
+    <footer>
+        <div class="container">
+        <div class="social">
+            <ul class="follow">
+            <li>
+                <a href="#" target="_blank">
+                <i class="fa fa-facebook"> </i>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                <i class="fa fa-twitter"> </i>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                <i class="fa fa-instagram"> </i>
+                </a>
+            </li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="col-md-12 text-center">
+        <span class="copyright">
+            Copyright ©
+            <script>
+            document.write(new Date().getFullYear());
+            </script>
+            All rights reserved | Developed by
+            <a href="#" target="_blank">Peacebusters</a>
+        </span>
+        </div>
+    </footer>
+    <!------ footer ends ----->
+
+    <script src="./js/jquery.min.js"></script>
+    <!-------- plugins  ------>
+    <script src="./assets/wowjs/wow.min.js"></script>
+
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <!--- activation codes --->
+   
+    <!--- activation codes --->
+</body>
+
+</html>
